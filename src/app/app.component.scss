@@ -1,0 +1,198 @@
+
+//Global style
+:root{
+  --main_color:#6574f7;
+}
+// header{
+//   transform-origin:  right top;
+//   transform: skewX(10deg);
+// }
+.home{
+overflow: auto;
+background-image: url(../assets/home/img1.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+height: 840px;
+position: relative;
+// transform-origin: top left;
+//  transform: skewX(10deg);
+}
+.home p{
+color: #4F4F4F;
+;
+}
+.btn.experts{
+  background-color: #6574f7;
+  color: white;
+}
+.btn-help{
+  background-color: #5180F6;
+  color: white;
+  font-weight:700 ;
+  font-size: 24px;
+}
+.home i{
+font-size: 20px;
+color: #6574f7;
+}
+
+.home h3{
+  color:#6574f7 ;
+  line-height: 24.88px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .home .fw-bolder{
+  font-size: 70px;
+ }
+
+// about section
+
+.about{
+background-image:linear-gradient(#6d91ee77,#6d91ee77) ,url(../assets/about/img2.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+height: 840px;
+position: relative;
+  overflow: hidden;
+
+}
+.about img{
+  width: 419px;
+  height: 282px;
+  border-radius: 20px;
+}
+.about .first-p{
+font-weight: 700;
+font-size: 18px;
+color: #FFFFFF;
+width: 538px;
+}
+.about .fw-900{
+  font-weight: 900;
+  font-size: 64px;
+}
+.trapezoid {
+  //position: relative;
+   width: 1259px; /* Adjust this value to control the width of the trapezoid */
+  height: 840px;/* Adjust this value to control the height of the trapezoid */
+  position: absolute;
+  top: 0px;
+  right:0px;
+  bottom: 0;
+  width: 75%;
+  background-color:#6D91EE;
+  ; /* Adjust this color as needed */
+  transform-origin: bottom right;
+   transform: skew(325deg);
+   z-index: 1;
+   //overflow: hidden;
+}
+
+.trapezoid-content{
+  position: relative;
+  top: -40px;
+ // background-color: #ff0000;
+  z-index: 2;
+  text-align: right;
+  width: 75%;
+  margin: 0 auto;
+
+}
+.trapezoid-content  .secend-p{
+width: 494px;
+text-align: right;
+position: absolute;
+right:0px ;
+color: #FFFFFF;
+font-size: 18px;
+
+}
+ .trapezoid-content  button{
+  position: absolute;
+  text-align: center;
+  right:50% ;
+  color: #515151;
+  font-weight:700 ;
+  font-size: 24px;
+   }
+///////////////////////////////////////////////
+.services h2{
+  color: #6D91EE;
+  font-weight: 900;
+
+}
+
+.card-img-top{
+width: 385px;
+height: 290px;
+width: 100%;
+border-radius:30px 30px 0px 0px;
+border-top-color: white;
+}
+.card-text{
+  color: #324473;
+}
+.card .card-title{
+  color: #324473;
+  font-weight: 900;
+}
+////////////////////////////////////////
+//testymonials
+.testymonials-card{
+border-radius: 40px;
+border: 1px solid #6D91EE;
+ flex-basis: calc(50% - 20px); /* Set the initial width to 50% minus the margin */
+ margin-right: 20px; /* Add right margin between the divs */
+}
+
+@media (max-width: 767px) {
+  .row {
+    flex-wrap: wrap; /* Wrap the columns onto new rows on small screens */
+  }
+
+  .testymonials-card {
+    flex-basis: 100%; /* Set the width to 100% on small screens */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+}
+
+
+.testymonials h2{
+  color: #6D91EE;
+  font-weight: 900;
+  box-sizing: border-box;
+}
+.testymonials img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.testymonials h4{
+  color: #6D91EE;
+  font-weight: 700;
+}
+.testymonials-card i{
+ color: #6D91EE;
+}
+
+//contact
+.form-input input{
+  background-color: #CEDCFF;
+}
+.contact h2{
+  color: #6D91EE;
+  font-weight: 900;
+  box-sizing: border-box;
+}
+.form-input button{
+background-color: white;
+border: solid #5180F6;
+}
+.form-contact i{
+  color: #5180F6;
+}
+footer{
+  width: 100%;
+  height: 145px;
+  background-color: #0C1E49;
+}
